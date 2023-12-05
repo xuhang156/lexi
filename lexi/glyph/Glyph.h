@@ -4,6 +4,13 @@
 #include <QList>
 
 #include "window/Window.h"
+////
+/// \brief The Glyph class
+/// 图元有三个基本责任:
+/// 1. 它们怎么画出自己->调用Window委托绘制
+/// 2. 它们占多大空间
+/// 3. 它们的父图元以及子图元是什么
+///
 class Glyph
 {
 public:
