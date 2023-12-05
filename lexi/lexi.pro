@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     glyph\Glyph.cpp \
-    main.cpp
+    main.cpp \
+    window/Window.cpp
 
 HEADERS += \
-    glyph\Glyph.h
+    glyph\Glyph.h \
+    window/Window.h
 
 FORMS +=
 

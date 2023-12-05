@@ -3,11 +3,13 @@
 #include <QRect>
 #include <QList>
 
+#include "window/Window.h"
 class Glyph
 {
 public:
     Glyph();
     virtual ~Glyph();
+    virtual void draw(Window*) = 0;
     virtual void insert(Glyph*, int index) = 0;
     virtual QRect& bounds() const = 0;
     virtual void remove(Glyph*) = 0;
