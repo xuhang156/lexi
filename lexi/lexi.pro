@@ -9,12 +9,14 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    command/Command.cpp \
     glyph\Glyph.cpp \
     gui/GUIFactory.cpp \
     main.cpp \
     window/Window.cpp
 
 HEADERS += \
+    command/Command.h \
     glyph\Glyph.h \
     gui/GUIFactory.h \
     window/Window.h
