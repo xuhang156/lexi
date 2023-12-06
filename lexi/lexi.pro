@@ -10,11 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     glyph\Glyph.cpp \
+    gui/GUIFactory.cpp \
     main.cpp \
     window/Window.cpp
 
 HEADERS += \
     glyph\Glyph.h \
+    gui/GUIFactory.h \
     window/Window.h
 
 FORMS +=
